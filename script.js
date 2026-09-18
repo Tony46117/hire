@@ -344,7 +344,7 @@ function renderCars(filter = 'all') {
 
 function bookCar(carName, price) {
     const message = `Hello, I'm interested in booking the ${carName} at KSH ${formatPrice(price)}/week. Please provide more details and availability.`;
-    const whatsappUrl = `https://wa.me/254758922294?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254790481297?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
 }
 
@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const formData = new FormData(form);
             const data = Object.fromEntries(formData);
             const message = `Hello, I'd like to book a vehicle.\n\nName: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}\nVehicle: ${data.vehicle}\nPickup: ${data.pickup}\nReturn: ${data.return}\nNotes: ${data.notes || 'None'}`;
-            const whatsappUrl = `https://wa.me/254758922294?text=${encodeURIComponent(message)}`;
+            const whatsappUrl = `https://wa.me/254790481297?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
         });
     }

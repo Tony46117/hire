@@ -1,4 +1,4 @@
 listen you are going to create a car hire website
 upload pictures of a wide a range of cars and range them 25000 to 20000 ksh per week
-then create a floating whatsapp button and a floating call button all to the number +254758922294 it should be professional no round corners
+then create a floating whatsapp button and a floating call button all to the number +254790481297 it should be professional no round corners
 use git token from apis.txt to create a repository called hire and upload the website there
