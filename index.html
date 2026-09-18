@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Hire Kenya - Premium Vehicle Rentals</title>
+    <title>CarHire Kenya - Vehicle Rentals in Nakuru</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,16 +13,16 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="40" height="40" rx="8" fill="#1a1a2e"/>
-                    <path d="M8 28L14 20L20 24L32 12" stroke="#e94560" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="10" cy="30" r="3" fill="#e94560"/>
-                    <circle cx="30" cy="30" r="3" fill="#e94560"/>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="36" fill="#0a0a0a"/>
+                    <path d="M7 26L12 18L18 22L29 10" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="9" cy="28" r="2.5" fill="#ffffff"/>
+                    <circle cx="27" cy="28" r="2.5" fill="#ffffff"/>
                 </svg>
                 <span>CarHire Kenya</span>
             </div>
             <nav class="nav">
-                <a href="#cars" class="nav-link">Our Fleet</a>
+                <a href="#fleet" class="nav-link">Fleet</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
@@ -32,86 +32,79 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Premium Car Rentals in Kenya</h1>
-                <p>Experience the freedom of the open road with our diverse fleet of well-maintained vehicles. From city runs to safari adventures.</p>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Vehicles</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">20K-25K</span>
-                        <span class="stat-label">KSH/Week</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">24/7</span>
-                        <span class="stat-label">Support</span>
-                    </div>
+                <p class="hero-tagline">Vehicle Rentals</p>
+                <h1>Car Hire Services in Nakuru, Kenya</h1>
+                <p class="hero-desc">Reliable vehicles for rent at competitive rates. From economy to premium SUVs. Transparent pricing. 24/7 support.</p>
+                <div class="hero-contact">
+                    <a href="https://wa.me/254758922294?text=Hello%2C%20I%27m%20interested%20in%20renting%20a%20vehicle.%20Please%20provide%20availability%20and%20pricing." target="_blank" class="btn-whatsapp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                        </svg>
+                        WhatsApp Us
+                    </a>
+                    <a href="tel:+254758922294" class="btn-call">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Call Now
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="cars" class="cars">
+    <section id="fleet" class="fleet">
         <div class="container">
             <div class="section-header">
                 <h2>Our Fleet</h2>
-                <p>Choose from a wide range of vehicles to suit your needs and budget</p>
+                <p>Select a vehicle that matches your requirements and budget</p>
             </div>
-            <div class="cars-grid" id="carsGrid">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Vehicles</button>
+                <button class="filter-btn" data-filter="economy">Economy (20K-40K)</button>
+                <button class="filter-btn" data-filter="mid">Mid-Range (40K-80K)</button>
+                <button class="filter-btn" data-filter="premium">Premium (80K-150K)</button>
+                <button class="filter-btn" data-filter="luxury">Luxury (150K-200K)</button>
             </div>
+            <div class="fleet-grid" id="fleetGrid"></div>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Why Choose CarHire Kenya?</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Why CarHire Kenya</h2>
+                    <p>We deliver reliable, transparent vehicle rental services across Kenya. Every vehicle is maintained to the highest standard.</p>
                     <ul class="features">
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>Comprehensive insurance coverage</span>
+                            <span class="feature-title">Full Insurance Coverage</span>
+                            <span class="feature-desc">Comprehensive insurance included on all rentals</span>
                         </li>
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>24/7 roadside assistance</span>
+                            <span class="feature-title">24/7 Roadside Assistance</span>
+                            <span class="feature-desc">Emergency support anywhere in Kenya</span>
                         </li>
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>Flexible weekly & monthly rates</span>
+                            <span class="feature-title">Flexible Terms</span>
+                            <span class="feature-desc">Weekly, monthly, and long-term rates available</span>
                         </li>
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>Free delivery within Nairobi</span>
+                            <span class="feature-title">Free Nakuru Delivery</span>
+                            <span class="feature-desc">Vehicle delivered to your location within Nakuru</span>
                         </li>
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>Well-maintained, clean vehicles</span>
+                            <span class="feature-title">No Hidden Fees</span>
+                            <span class="feature-desc">Transparent pricing with no surprise charges</span>
                         </li>
                         <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
-                            </svg>
-                            <span>Easy online booking process</span>
+                            <span class="feature-title">Well-Maintained Fleet</span>
+                            <span class="feature-desc">Regular servicing and thorough cleaning</span>
                         </li>
                     </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop" alt="CarHire Kenya fleet" loading="lazy">
                 </div>
             </div>
         </div>
@@ -119,30 +112,79 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <div class="contact-content">
-                <h2>Ready to Book?</h2>
-                <p>Contact us today to reserve your vehicle or get more information about our fleet.</p>
+            <div class="contact-grid">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                            <circle cx="12" cy="10" r="3"/>
-                        </svg>
-                        <span>Nairobi, Kenya</span>
+                    <h2>Book Your Vehicle</h2>
+                    <p>Contact us directly to check availability, get a quote, or make a reservation.</p>
+                    <div class="contact-items">
+                        <a href="https://wa.me/254758922294?text=Hello%2C%20I%27m%20interested%20in%20renting%20a%20vehicle.%20Please%20provide%20availability%20and%20pricing." target="_blank" class="contact-item whatsapp">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                            <span>WhatsApp: +254 758 922 294</span>
+                        </a>
+                        <a href="tel:+254758922294" class="contact-item call">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>Call: +254 758 922 294</span>
+                        </a>
+                        <a href="mailto:bookings@carhirekenya.co.ke" class="contact-item email">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <rect x="2" y="4" width="20" height="16"/>
+                                <path d="M22 6L12 13L2 6"/>
+                            </svg>
+                            <span>Email: bookings@carhirekenya.co.ke</span>
+                        </a>
+                        <div class="contact-item location">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Location: Nakuru, Kenya</span>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                        </svg>
-                        <span>+254 758 922 294</span>
-                    </div>
-                    <div class="contact-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="4" width="20" height="16" rx="2"/>
-                            <path d="M22 6L12 13L2 6"/>
-                        </svg>
-                        <span>info@carhirekenya.co.ke</span>
-                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" name="name" required placeholder="John Kamau">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" required placeholder="+254 7XX XXX XXX">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Preferred Vehicle</label>
+                                <select name="vehicle" id="vehicleSelect" required>
+                                    <option value="">Select a vehicle</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Pickup Date</label>
+                                <input type="date" name="pickup" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Return Date</label>
+                                <input type="date" name="return" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Additional Notes</label>
+                            <textarea name="notes" rows="4" placeholder="Special requirements, destination, etc."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit Booking Request</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -150,17 +192,28 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 CarHire Kenya. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" fill="#0a0a0a"/>
+                        <path d="M7 26L12 18L18 22L29 10" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="9" cy="28" r="2.5" fill="#ffffff"/>
+                        <circle cx="27" cy="28" r="2.5" fill="#ffffff"/>
+                    </svg>
+                    <span>CarHire Kenya</span>
+                </div>
+                <p class="footer-copy">&copy; 2025 CarHire Kenya. All rights reserved. | Nakuru, Kenya</p>
+            </div>
         </div>
     </footer>
 
-    <a href="https://wa.me/254758922294" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/254758922294?text=Hello%2C%20I%27m%20interested%20in%20renting%20a%20vehicle.%20Please%20provide%20availability%20and%20pricing." class="fab whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
         </svg>
     </a>
 
-    <a href="tel:+254758922294" class="floating-btn call-btn" aria-label="Call us">
+    <a href="tel:+254758922294" class="fab call" aria-label="Call us">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
         </svg>
