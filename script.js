@@ -4,7 +4,7 @@ const cars = [
         name: "Toyota Probox",
         price: 20000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Toyota_Probox_Van_DX.jpg/960px-Toyota_Probox_Van_DX.jpg",
         specs: ["2WD", "5 Seats", "Manual", "Petrol"],
         features: ["Fuel Efficient", "Spacious Cargo", "AC", "Reliable"]
     },
@@ -13,7 +13,7 @@ const cars = [
         name: "Toyota Succeed",
         price: 22000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Toyota_Succeed_Van_UL.jpg/960px-Toyota_Succeed_Van_UL.jpg",
         specs: ["2WD", "5 Seats", "Manual", "Petrol"],
         features: ["Fuel Efficient", "Low Maintenance", "AC", "Spacious"]
     },
@@ -22,7 +22,7 @@ const cars = [
         name: "Nissan Wingroad",
         price: 23000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Nissan_AD_DX_2WD_%285BF-VY12%29.jpg/960px-Nissan_AD_DX_2WD_%285BF-VY12%29.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Comfortable", "Good Fuel Economy", "AC", "Smooth Ride"]
     },
@@ -31,7 +31,7 @@ const cars = [
         name: "Mazda Familia",
         price: 25000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2003_Mazda_323_%28BJ_II%29_Proteg%C3%A9_Shades_sedan_%282015-08-07%29_01.jpg/960px-2003_Mazda_323_%28BJ_II%29_Proteg%C3%A9_Shades_sedan_%282015-08-07%29_01.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Sporty Handling", "AC", "Reliable", "Good Resale"]
     },
@@ -40,7 +40,7 @@ const cars = [
         name: "Toyota Corolla (NZE)",
         price: 28000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1550355171-bb09f4258738?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Toyota_Corolla_Base_in_Super_White%2C_Front_Left%2C_08-06-2022.jpg/960px-2011_Toyota_Corolla_Base_in_Super_White%2C_Front_Left%2C_08-06-2022.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Very Reliable", "Fuel Efficient", "AC", "Spacious Interior"]
     },
@@ -49,7 +49,7 @@ const cars = [
         name: "Honda Fit",
         price: 30000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Honda_Jazz_Hybrid_Executive_%28IV%29_%E2%80%93_f_18102020.jpg/960px-Honda_Jazz_Hybrid_Executive_%28IV%29_%E2%80%93_f_18102020.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Versatile Interior", "Fuel Efficient", "AC", "Compact"]
     },
@@ -58,7 +58,7 @@ const cars = [
         name: "Toyota Vitz",
         price: 25000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2017_Toyota_Yaris_L_5-door%2C_front_right%2C_08-25-2024.jpg/960px-2017_Toyota_Yaris_L_5-door%2C_front_right%2C_08-25-2024.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["City Friendly", "Fuel Efficient", "AC", "Easy Parking"]
     },
@@ -67,7 +67,7 @@ const cars = [
         name: "Suzuki Swift",
         price: 27000,
         category: "economy",
-        image: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/960px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Fun to Drive", "Fuel Efficient", "AC", "Compact"]
     },
@@ -76,7 +76,7 @@ const cars = [
         name: "Toyota Premio",
         price: 35000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2016-2021_Toyota_Premio.jpg/960px-2016-2021_Toyota_Premio.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Comfortable", "Spacious", "AC", "Executive Feel"]
     },
@@ -85,7 +85,7 @@ const cars = [
         name: "Toyota Allion",
         price: 38000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/18_Toyota_Allion_%28T260%29.jpg/960px-18_Toyota_Allion_%28T260%29.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Luxury Interior", "Smooth Ride", "AC", "Quiet Cabin"]
     },
@@ -94,7 +94,7 @@ const cars = [
         name: "Nissan Tiida",
         price: 32000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nissan_Tiida_C11_003.JPG/960px-Nissan_Tiida_C11_003.JPG",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Spacious", "Comfortable", "AC", "Good Value"]
     },
@@ -103,7 +103,7 @@ const cars = [
         name: "Mazda Axela",
         price: 40000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mazda3_SKYACTIV-G.jpg/960px-Mazda3_SKYACTIV-G.jpg",
         specs: ["2WD", "5 Seats", "Auto", "Petrol"],
         features: ["Sporty", "Quality Interior", "AC", "Responsive"]
     },
@@ -112,7 +112,7 @@ const cars = [
         name: "Subaru Impreza",
         price: 45000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1550355171-bb09f4258738?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Subaru_Impreza_%28GU%29_Automesse_Ludwigsburg_2024_IMG_1593.jpg/960px-Subaru_Impreza_%28GU%29_Automesse_Ludwigsburg_2024_IMG_1593.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["AWD", "Safe", "AC", "All Weather"]
     },
@@ -121,16 +121,16 @@ const cars = [
         name: "Toyota RAV4 (XA30)",
         price: 55000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TOYOTA_RAV4_%28XA30%29_China.jpg/960px-TOYOTA_RAV4_%28XA30%29_China.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["SUV Capability", "Spacious", "AC", "Ground Clearance"]
     },
     {
         id: 15,
-        name: "Honda CR-V (RD1-RD3)",
+        name: "Honda CR-V (RD1)",
         price: 50000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Honda_CR-V_%28RD1%29_Washington_DC_Metro_Area%2C_USA.jpg/960px-Honda_CR-V_%28RD1%29_Washington_DC_Metro_Area%2C_USA.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["Family Friendly", "Reliable", "AC", "Spacious"]
     },
@@ -139,7 +139,7 @@ const cars = [
         name: "Mitsubishi Outlander",
         price: 60000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2025_Mitsubishi_Outlander_PHEV_%28fourth_generation%29_IMG_3129.jpg/960px-2025_Mitsubishi_Outlander_PHEV_%28fourth_generation%29_IMG_3129.jpg",
         specs: ["AWD", "7 Seats", "Auto", "Petrol"],
         features: ["7 Seater", "AWD", "AC", "Versatile"]
     },
@@ -148,7 +148,7 @@ const cars = [
         name: "Toyota Harrier (ACU30)",
         price: 75000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Toyota_Harrier_%28XU30%29.jpg/960px-Toyota_Harrier_%28XU30%29.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["Luxury SUV", "Premium Interior", "AC", "Smooth Ride"]
     },
@@ -157,7 +157,7 @@ const cars = [
         name: "Toyota Kluger",
         price: 80000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Toyota_Highlander_Hybrid_%28XU70%29_1X7A6356.jpg/960px-Toyota_Highlander_Hybrid_%28XU70%29_1X7A6356.jpg",
         specs: ["AWD", "7 Seats", "Auto", "Petrol"],
         features: ["Family SUV", "7 Seater", "AC", "Comfortable"]
     },
@@ -166,7 +166,7 @@ const cars = [
         name: "Nissan X-Trail (T31)",
         price: 65000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/NISSAN_X-TRAIL_%28T31%29_China.jpg/960px-NISSAN_X-TRAIL_%28T31%29_China.jpg",
         specs: ["AWD", "7 Seats", "Auto", "Petrol"],
         features: ["7 Seater", "AWD", "AC", "Practical"]
     },
@@ -175,7 +175,7 @@ const cars = [
         name: "Mazda CX-5",
         price: 85000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2024_Mazda_CX-5_2.5_S_Select_in_Platinum_Quartz_Metallic%2C_front_right.jpg/960px-2024_Mazda_CX-5_2.5_S_Select_in_Platinum_Quartz_Metallic%2C_front_right.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["Premium Feel", "SkyActiv", "AC", "Efficient"]
     },
@@ -184,7 +184,7 @@ const cars = [
         name: "Subaru Forester",
         price: 70000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1550355171-bb09f4258738?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Subaru_Forester_%28SL%29_e-BOXER_DSC_8811.jpg/960px-Subaru_Forester_%28SL%29_e-BOXER_DSC_8811.jpg",
         specs: ["AWD", "5 Seats", "Auto", "Petrol"],
         features: ["AWD", "EyeSight", "AC", "Safe"]
     },
@@ -193,7 +193,7 @@ const cars = [
         name: "Toyota Fortuner",
         price: 95000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/960px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg",
         specs: ["4x4", "7 Seats", "Auto", "Diesel"],
         features: ["Off-Road", "7 Seater", "AC", "Tough"]
     },
@@ -202,7 +202,7 @@ const cars = [
         name: "Mitsubishi Pajero Sport",
         price: 100000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mitsubishi_Pajero_Sport_%283rd_generation%29_1X7A0409.jpg/960px-Mitsubishi_Pajero_Sport_%283rd_generation%29_1X7A0409.jpg",
         specs: ["4x4", "7 Seats", "Auto", "Diesel"],
         features: ["Off-Road", "7 Seater", "AC", "Capable"]
     },
@@ -211,16 +211,16 @@ const cars = [
         name: "Isuzu MU-X",
         price: 90000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Isuzu_MU-X_LS-M_%28II%2C_Facelift%29_%E2%80%93_f_02012026.jpg/960px-Isuzu_MU-X_LS-M_%28II%2C_Facelift%29_%E2%80%93_f_02012026.jpg",
         specs: ["4x4", "7 Seats", "Auto", "Diesel"],
         features: ["Towing", "7 Seater", "AC", "Durable"]
     },
     {
         id: 25,
-        name: "Toyota Prado (TX)",
+        name: "Toyota Land Cruiser Prado",
         price: 130000,
         category: "luxury",
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toyota_Land_Cruiser_Prado_J150_3.0_TX_2022_%281%29.jpg/960px-Toyota_Land_Cruiser_Prado_J150_3.0_TX_2022_%281%29.jpg",
         specs: ["4x4", "7 Seats", "Auto", "Diesel"],
         features: ["Luxury 4x4", "Sunroof", "AC", "Leather"]
     },
@@ -229,7 +229,7 @@ const cars = [
         name: "Toyota Land Cruiser V8",
         price: 180000,
         category: "luxury",
-        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2014_Toyota_Land_Cruiser_200_VX_V8_in_Black%2C_front_right.jpg/960px-2014_Toyota_Land_Cruiser_200_VX_V8_in_Black%2C_front_right.jpg",
         specs: ["4x4", "8 Seats", "Auto", "Diesel"],
         features: ["Ultimate SUV", "V8 Power", "AC", "Premium"]
     },
@@ -238,7 +238,7 @@ const cars = [
         name: "Toyota Land Cruiser 70 Series",
         price: 150000,
         category: "luxury",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_frontview_of_Toyota_LAND_CRUISER_70_PICKUP_at_night.JPG/960px-The_frontview_of_Toyota_LAND_CRUISER_70_PICKUP_at_night.JPG",
         specs: ["4x4", "5 Seats", "Manual", "Diesel"],
         features: ["Indestructible", "Workhorse", "AC", "Legendary"]
     },
@@ -247,7 +247,7 @@ const cars = [
         name: "Nissan Patrol (Y61)",
         price: 140000,
         category: "luxury",
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Nissan_Safari_Y61_002.JPG/960px-Nissan_Safari_Y61_002.JPG",
         specs: ["4x4", "8 Seats", "Auto", "Petrol"],
         features: ["V8 Power", "8 Seater", "AC", "Off-Road King"]
     },
@@ -256,7 +256,7 @@ const cars = [
         name: "Toyota Hiace Van",
         price: 40000,
         category: "mid",
-        image: "https://images.unsplash.com/photo-1550355171-bb09f4258738?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2020_Toyota_HiAce_%28front%29.jpg/960px-2020_Toyota_HiAce_%28front%29.jpg",
         specs: ["2WD", "14 Seats", "Manual", "Diesel"],
         features: ["Group Transport", "AC", "Spacious", "Reliable"]
     },
@@ -265,11 +265,24 @@ const cars = [
         name: "Toyota Hilux Double Cab",
         price: 55000,
         category: "premium",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg/960px-2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg",
         specs: ["4x4", "5 Seats", "Auto", "Diesel"],
         features: ["Pickup", "Canopy", "AC", "Towing"]
     }
 ];
+
+// Neutral placeholder shown if any image ever fails to load (no broken-image icons)
+const IMAGE_PLACEHOLDER = "data:image/svg+xml;utf8," + encodeURIComponent(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400"><rect width="600" height="400" fill="#f3f4f6"/><g fill="none" stroke="#9ca3af" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M150 280V180l40-70h220l40 70v100"/><path d="M110 280h380"/><circle cx="190" cy="290" r="26"/><circle cx="410" cy="290" r="26"/><path d="M190 180h220"/></g><text x="300" y="360" text-anchor="middle" font-family="Arial" font-size="22" fill="#6b7280">CarHire Kenya</text></svg>`
+);
+
+document.addEventListener("error", (e) => {
+    const t = e.target;
+    if (t && t.tagName === "IMG" && !t.dataset.fallback) {
+        t.dataset.fallback = "1";
+        t.src = IMAGE_PLACEHOLDER;
+    }
+}, true);
 
 const specIcons = {
     "2WD": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 17V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v12"/><path d="M3 17h18"/><path d="M9 17v4"/><path d="M15 17v4"/></svg>`,
